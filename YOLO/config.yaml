@@ -1,0 +1,10 @@
+path: pass #Add path to local folder YOLO
+p: YOLO/data
+path: path + p
+train: images/train
+val: images/val
+train_label_dir: labels/train
+val_label_dir: labels/val
+
+nc: 1
+names: ['duck']
